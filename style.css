@@ -1,0 +1,523 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+  scroll-behavior: smooth;
+}
+body,
+html {
+  height: 100%;
+}
+
+a {
+  color: white;
+}
+
+.judul-bsr {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  background-color: brown;
+}
+.nama-atas {
+  font-weight: bolder;
+  margin-top: 12px;
+  font-size: 20px;
+}
+.nama-atas-1 {
+  font-weight: bolder;
+  margin-top: 12px;
+  font-size: 20px;
+  font-family: fantasy;
+}
+
+.title {
+  color: black;
+  font-size: 18px;
+}
+
+.navbar a {
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  font-weight: bolder;
+  text-decoration: none;
+  font-size: 21px;
+}
+.navbar a:hover {
+  background-color: greenyellow;
+  color: gold;
+}
+.bg-image {
+  background-image: url(./IMG/dan-asaki-i31k6Ts2ShA-unsplash.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.bg-text {
+  background-color: black; /* Fallback color */
+  color: white;
+  font-weight: bold;
+  border: 3px solid gold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.logo {
+  margin-right: auto;
+  display: flex;
+}
+
+.logo-title {
+  flex-direction: column;
+}
+nav ul {
+  background-color: bisque;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  padding: 30px;
+  font-size: 20px;
+  gap: 20px;
+}
+li a {
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  gap: 30px;
+}
+li {
+  list-style-type: none;
+}
+.btn-cta {
+  margin-right: 10px;
+  font-size: 20px;
+  padding: 4px 12px;
+  background-color: purple;
+  color: #eaeaea;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn-cta-2 {
+  margin-right: 10px;
+  font-size: 20px;
+  padding: 4px 12px;
+  background-color: purple;
+  color: #eaeaea;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn-cta-2:hover {
+  color: chartreuse;
+  transform: rotate(2deg);
+}
+.btn-cta:hover {
+  color: chartreuse;
+  transform: rotate(2deg);
+}
+
+.intro {
+  text-align: center;
+  margin-top: 50px;
+  padding: 10px;
+  font-weight: bolder;
+  color: #eaeaea;
+}
+.intro-2 {
+  text-align: center;
+  background-color: black;
+  padding: 40px;
+}
+.img-intro {
+  width: 100%;
+  max-width: 500px;
+  height: 400px;
+}
+.title {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: gold;
+  font-weight: bolder;
+}
+.paralax {
+  background-image: url(IMG/dan-asaki-i31k6Ts2ShA-unsplash.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400vh;
+}
+.paralax-3 {
+  background-image: url(IMG/dan-asaki-i31k6Ts2ShA-unsplash.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500vh;
+}
+
+.judul-shope {
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  color: white;
+}
+.judul-message {
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  color: white;
+  font-size: 40px;
+}
+
+.card-title {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  padding-bottom: 0px;
+  font-weight: bolder;
+}
+.card-text {
+  text-align: left;
+  font-weight: bold;
+}
+.card-name {
+  gap: 1px;
+}
+.lambang-img {
+  max-height: 40px;
+}
+.lambang-atas {
+  max-height: 40px;
+  margin-right: 20px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  height: 30px;
+  font-family: similar;
+  font-size: 18px;
+}
+.card {
+  margin-top: 35px;
+}
+.kartu {
+  height: 400vh;
+  background-color: antiquewhite;
+  background-color: black;
+  border: 3px solid black;
+  padding-top: 400px;
+}
+.judul-kartu {
+  padding-top: 2px;
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  color: #ddf505;
+}
+.tentang {
+  background-color: black;
+  height: 300px;
+  color: #eaeaea;
+  font-family: fantasy;
+  border: 3px solid black;
+  justify-content: center;
+  align-items: center;
+}
+.anak-tentang {
+  justify-content: center;
+  display: flex;
+  font-family: fantasy;
+  font-size: 50px;
+}
+.judul-card {
+  padding-top: 2px;
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  color: #ddf505;
+  margin-top: 80px;
+}
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .column {
+    width: 100%;
+  }
+  .content {
+    max-width: 500px;
+  }
+  .paralax {
+    height: 170vh;
+  }
+  .paralax-3 {
+    height: 210vh;
+  }
+  .bg-text {
+    margin-top: 100px;
+  }
+  .judul-shope {
+    margin-bottom: 10px;
+  }
+  .card-body {
+    margin-top: 10px;
+  }
+  .tentang {
+    height: 720px;
+  }
+  .anak-tentang {
+    display: flex;
+    justify-content: center;
+  }
+  .kartu {
+    height: 550vh;
+    padding-top: 70px;
+  }
+  .judul-card {
+    padding-top: 100px;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  margin-top: 140px;
+}
+
+.title-1 {
+  color: black;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.btn-n {
+  background-color: gold;
+  height: 75px;
+  font-weight: bolder;
+}
+.btn-o {
+  background-color: chocolate;
+  height: 75px;
+  font-weight: bolder;
+}
+.btn-p {
+  background-color: brown;
+  height: 75px;
+  font-weight: bolder;
+}
+.btn-n:hover {
+  background-color: deeppink;
+  color: #eaeaea;
+  animation-duration: 3s;
+}
+.btn-o:hover {
+  background-color: deeppink;
+  color: #eaeaea;
+  animation-duration: 3s;
+}
+.btn-p:hover {
+  background-color: deeppink;
+  color: #eaeaea;
+  animation-duration: 3s;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover,
+a:hover {
+  opacity: 0.7;
+}
+.nglink {
+  gap: 20px;
+}
+
+.jdl {
+  background-color: crimson;
+  color: white;
+  font-weight: bolder;
+}
+.card-body {
+  background-color: white;
+  color: black;
+  border-color: gold;
+  border-width: 20px;
+  border: 3px solid gold;
+}
+
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {
+  font-style: italic;
+}
+
+/* Add a blue color to the author */
+.author {
+  color: cornflowerblue;
+}
+.jdl-quotes {
+  color: gold;
+  padding-bottom: 19px;
+}
+.textjalan {
+  height: 600px;
+  background-color: aqua;
+  font-size: 100px;
+  font-weight: bolder;
+}
+marquee {
+  margin-top: 200px;
+}
+
+/* inspired from this svgbackgrounds.com/ */
+.button-instagram {
+  width: fit-content;
+  display: inline-flex;
+  padding: 0.6em 1.1em;
+  gap: 0.4rem;
+  font-weight: bold;
+  border-radius: 30px;
+  text-shadow: 2px 2px 3px rgb(136 0 136 / 50%);
+  background: linear-gradient(15deg, #880088, #aa2068, #cc3f47, #de6f3d, #f09f33, #de6f3d, #cc3f47, #aa2068, #880088) no-repeat;
+  background-size: 300%;
+  background-position: left center;
+  transition: background 0.3s ease;
+  color: #fff;
+  border: 3px solid yellow;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-instagram:hover {
+  background-size: 320%;
+  background-position: right center;
+  border: 3px solid red;
+}
+
+/* buton wa */
+.button {
+  width: fit-content;
+  display: inline-flex;
+  padding: 0.6em 1.1em;
+  gap: 0.4rem;
+  font-weight: bold;
+  border-radius: 30px;
+  text-shadow: 2px 2px 3px rgb(136 0 136 / 50%);
+  background: linear-gradient(15deg, green, #aa2068, greenyellow, #de6f3d, green, #de6f3d, green, #aa2068, green) no-repeat;
+  background-size: 300%;
+  background-position: left center;
+  transition: background 0.3s ease;
+  color: #fff;
+  border: 3px solid yellow;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:hover {
+  background-size: 320%;
+  background-position: right center;
+  border: 3px solid green;
+}
